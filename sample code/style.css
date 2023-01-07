@@ -1,0 +1,428 @@
+
+/* https://coolors.co/393d3f-fdfdff-c6c5b9-62929e-546a7b*/
+* {box-sizing: border-box}
+body {
+	margin: 0;
+	background-color: #d9f9ff;
+	color: black;
+  font-family: 'Nunito', sans-serif;
+}
+
+#main {
+  margin-top: 50px;
+	padding: 0 20px;
+}
+
+h1 {
+  font-family: 'Oswald', sans-serif;
+	font-size: 35px;
+	color: black;
+	text-align: center;
+	width: 100%;
+}
+
+h2 {
+	font-size: 20px;
+		font-family: 'Oswald', sans-serif;
+	text-align: center;
+	width: 100%;
+}
+
+h3 {
+	font-size: 15px;
+		font-family: 'Oswald', sans-serif;
+	text-align: center;
+	width: 100%;
+}
+
+h4 {
+	font-size: 12px;
+		font-family: 'Oswald', sans-serif;
+	width: 100%;
+}
+
+a {
+	font-family: 'Nunito', sans-serif;
+	color: black;
+}
+
+/* unvisited link */
+a:link {
+  color: black;
+}
+
+/* visited link */
+a:visited {
+  color: black;
+}
+
+/* mouse over link */
+a:hover {
+  color: #555fd3;
+}
+
+/* selected link */
+a:active {
+  color: #59ccee;
+}
+
+p {
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+
+.button {
+	text-align: center;
+	margin: 20px;
+}
+
+.button a {
+	background-color:inherit;
+	text-decoration: none;
+	padding: 10px 20px;
+	color: #d1dae6;
+	border: dashed 2px #d1dae6;
+}
+
+.button a:hover {
+	background-color: #ff6768;
+	color: white;
+	border: solid 2px #ff6768;
+	border: 0;
+}
+
+
+
+.sources {
+	margin: 0 auto;
+	overflow-wrap: anywhere;
+	word-wrap: anywhere;
+	display: table;
+}
+
+/* Index.html */
+
+.welcome {
+	background-image: url("Pictures/index-header_image.jpg");
+  min-height: 600px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about {
+	background-image: url("Pictures/national-cancer-institute-NFvdKIhxYlU-unsplash.jpg");
+  min-height: 600px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.services {
+	background-image: url("Pictures/headway-5QgIuuBxKwM-unsplash.jpg");
+  min-height: 600px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+iframe {
+	width: 70%;
+	margin: 20px auto;
+	display: block;
+	height: 500px;
+}
+
+.index h1 {
+	padding: 0px 20px;
+	font-size: 90px;
+}
+
+.index p {
+	font-size: 30px;
+	text-align: center;
+}
+.contact-form textarea {
+	height: 200px;
+}
+
+form {
+	z-index: 1;
+	position: relative;
+}
+.form-control {
+    width: 100%;
+    background: transparent;
+		margin: 10px;
+    outline: none;
+    border: 2px solid white;
+    color: #fff;
+    font-family: sans-serif;
+		resize: none;
+		font-size: 20px;
+}
+::placeholder {
+    color: white;
+    opacity: 1;
+    font-family: sans-serif;
+}
+form .submit {
+	background: rgb(89, 204, 238);
+}
+
+
+.tab {
+	overflow:hidden;
+	display: flex;
+	size: 1200px;
+	background: #140959;
+}
+
+.tab button{
+	background-color: #140959;
+	font-family: 'Nunito', sans-serif;
+	display: block;
+	padding:14px 16px;
+	border:none;
+	width: 100%;
+	outline:none;
+	cursor: pointer;
+	transition: 0.2s;
+	font-weight: bold;
+	color: white;
+}
+
+.tab button:hover{
+	background:rgba(89, 204, 238,.9);
+}
+.tab button.active{
+	background: #555fd3;
+
+}
+
+.tabcontent{
+	padding: 6px 12px;
+	display: none;
+	border: 1 px solid #ccc;
+	border-top: none;
+}
+
+/* art gallery */
+.gallery-section-1 {
+	background-color: #59ccee;
+	float:left;
+	margin: 20px;
+	padding: 20px;
+}
+
+.gallery-section-2 {
+	background-color: #555fd3;
+	float: left;
+	margin: 20px;
+	padding: 20px;
+	color: white;
+}
+.gallery-section-3 {
+	background-color: #140959;
+	float: left;
+	margin: 20px;
+	padding: 20px;
+	color: white;
+}
+
+.gallery-section-3 h1 {
+	color: white;
+}
+
+.services-1 {
+	width: 100%;
+	float:left;
+}
+.services-2 {
+	width: 100%;
+	background-color: #555fd3;
+	float:left;
+	padding: 10px;
+}
+.services-3 {
+	width: 100%;
+	background-color: #59ccee;
+	float:left;
+	padding: 10px;
+}
+
+.organized-gallery {
+	float: left;
+	width: 100%;
+}
+
+.non-event {
+	width: 100%;
+	float: left;
+}
+
+hr {
+	height: 2px;
+	background-color: #555fd3;
+	width: 90%;
+	border: none;
+}
+
+.event {
+	float: left;
+	width: 50%;
+}
+
+.event img {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+	text-align: center;
+  width: 24.99999%;
+}
+.responsive img {
+	width:50%;
+	border-radius: 100%;
+}
+@media only screen and (min-width: 1151px) {
+}
+
+@media only screen and (min-width: 801px) and (max-width: 1150px) {
+	iframe {
+		width: 90%;
+		margin: 10px auto;
+		display: block;
+		height: 400px;
+	}
+	.sources {
+		margin: 0 20px;
+	}
+	.contact-form textarea {
+		height: 350px;
+	}
+	.welcome {
+		background-attachment: scroll;
+	}
+	.about {
+		background-attachment: scroll;
+	}
+	.services {
+		background-attachment: scroll;
+	}
+	#main {
+		margin-top: 150px;
+	}
+	ul, table, p, .form-control, button {
+		font-size: 30px;
+	}
+	h1 {
+		font-size: 60px;
+	}
+	h2 {
+		font-size: 50px;
+	}
+	h3 {
+		font-size: 40px;
+	}
+
+	.index h1 {
+		padding: 0px;
+		font-size: 80px;
+	}
+
+	.index p {
+		font-size: 30px;
+		text-align: center;
+	}
+	/*index.html*/
+
+	/* stem.html */
+	/*gallery*/
+	.responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+	.event {
+		width: 100%;
+	}
+	.button a {
+		float: none;
+		display: block;
+		width: 100%;
+		text-align: center;
+	}
+
+}
+/*phone */
+@media only screen and (max-width: 800px) {
+	iframe {
+		width: 100%;
+		margin: 10px auto;
+		display: block;
+		height: 350px;
+	}
+	.sources {
+		margin: 0 10px;
+	}
+	.contact-form textarea {
+		height: 500px;
+	}
+	p, ul, table, .form-control, button {
+		font-size: 30px;
+	}
+	h1 {
+		font-size: 50px;
+	}
+	h2 {
+		font-size: 40px;
+	}
+	h3 {
+		font-size: 35px;
+	}
+	.welcome {
+		background-attachment: scroll;
+	}
+	.about {
+		background-attachment: scroll;
+	}
+	.services {
+		background-attachment: scroll;
+	}
+	#main {
+		margin-top: 200px;
+	}
+	.index h1 {
+		padding: 0px;
+		font-size: 10vw;
+	}
+
+	.index p {
+		font-size: 30px;
+		text-align: center;
+	}
+	/*index.html*/
+
+	/* stem.html */
+
+	/*gallery*/
+	.responsive {
+		width: 100%;
+	}
+	.event {
+		width: 100%;
+	}
+	.button a {
+		float: none;
+		display: block;
+		width: 100%;
+		text-align: center;
+	}
+}

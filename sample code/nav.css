@@ -1,0 +1,169 @@
+.navbar {
+	overflow: hidden;
+	width: 65%;
+
+}
+.navbar a {
+	color: #140959;
+	border-bottom: solid 2px #140959;
+	text-decoration: none;
+	font-size: 15px;
+  float: left;
+  padding: 12px;
+  text-align: center;
+  width: 25%; /* Four links of equal widths */
+}
+
+
+.navbar a:hover {
+  color: #555fd3;
+	border-bottom: solid 2px #555fd3;
+}
+
+.navbar a.active {
+	color: white;
+  border-bottom: solid 2px white;
+}
+
+.navbar a.active:hover {
+	color: black;
+	border-bottom: solid 2px black;
+}
+
+
+.header {
+	background-color: rgba(89, 204, 238,.9);
+  position: fixed;
+		z-index: 3;
+  width: 100%;
+  top:0;
+}
+.title {
+	color:#d1dae6;
+	padding-top: 5px;
+	text-align: left;
+	padding-left: 30px;
+	width: 35%;
+	margin:0;
+  font-size: 25px;
+	float: left;
+  text-decoration: none;
+	font-family: 'Oswald', sans-serif;
+
+}
+
+.footer {
+  background-color: #555fd3;
+	color: white;
+  padding: 30px;
+  bottom:0;
+	width: 100%;
+	float:left;
+}
+
+.footer h1 {
+	color:white;
+	text-align: left;
+}
+
+.footer-table {
+	padding: 5px;
+	text-align:center;
+	border: 2px solid white;
+}
+
+.footer-table tr, td,  table {
+	border: 2px solid rgba(255, 255, 255, .9);
+	border-collapse: collapse;
+}
+
+.footer-table td {
+	padding: 1px 20px;
+}
+
+@media only screen and (min-width: 801px) and (max-width: 1150px) {
+	.navbar a {
+		border-bottom: none;
+		font-size: 26px;
+	}
+	.title {
+		float: left;
+		width: 100%;
+		text-align: center;
+		margin: 0;
+		padding-top: 10px;
+		padding-left: 0px;
+		font-size: 50px;
+	}
+	.navbar {
+		float: none;
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 800px) {
+	.navbar a:hover {
+	  color: white;
+		border-bottom: none;
+	}
+
+	.navbar a.active {
+		color: white;
+	  border-bottom: none;
+	}
+
+	.navbar a.active:hover {
+		color: black;
+		border-bottom: none;
+	}
+	.navbar a {
+  	float: left;
+		border-bottom: none;
+		font-size: 30px;
+  	width: 50%;
+  	text-align: center;
+	}
+	.title {
+		float: left;
+		width: 100%;
+		text-align: center;
+		margin: 0;
+		padding-top: 10px;
+		font-size: 30px;
+		padding-left: 0px;
+	}
+	.navbar {
+		float: none;
+		width: 100%;
+	}
+}
+
+.center {
+	display: block;
+	background-size: contain;
+	border-radius: 50%;
+	width: 150px;
+	padding: 40px;
+  float:left;
+}
+
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background-color: white;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #555fd3;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #59ccee;
